@@ -3,7 +3,7 @@
   <%= link_to 'Create New Bookmark', new_bookmark_path, class:"btn btn-success" %>
 </div>
 
-<div class="banner mb-5 d-flex justify-content-center align-items-center" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.lambesc.fr/fileadmin/user_upload/cinema.jpg); height: 50vh; size:cover; position: center;">
+<div class="banner mb-5 d-flex justify-content-center align-items-center" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= cl_image_path("jxnl60ip4ygjfvr4lic1") %>'); height: 50vh; size: cover; position: center">
   <h1 class="text-white display-2">All the lists</h1>
 </div>
 
@@ -23,5 +23,5 @@
 </div>
 
 <div class="footer bg-dark p-3 fixed-bottom">
-<p class="text-success text-center font-italic">Made by Michele</p>
+<p class="text-success text-center font-italic">Forked from Michele</p>
 </div>
